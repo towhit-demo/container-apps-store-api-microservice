@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Container Apps @ NDC Melbourne' });
+  res.render('index', { title: 'Container Apps @ NDC Melbourne 2022' });
 });
 
 module.exports = router;
